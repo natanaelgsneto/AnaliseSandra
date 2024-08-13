@@ -9,3 +9,5 @@ saida = na.omit(BOMBEIRO_BAYEUX)
 saida
 semnas=replace(x = BOMBEIRO_BAYEUX, list = is.na(BOMBEIRO_BAYEUX), values = 0)
 #//////
+
+
