@@ -11,3 +11,4 @@ semnas=replace(x = BOMBEIRO_BAYEUX, list = is.na(BOMBEIRO_BAYEUX), values = 0)
 #//////
 bombeiro = table(BOMBEIRO_BAYEUX$Idade)
 bombeiro
+
