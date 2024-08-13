@@ -4,7 +4,6 @@ BOMBEIRO_BAYEUX
 View(BOMBEIRO_BAYEUX)
 options('max.print' = 100000)   #or whatever value you want
 getOption('max.print')
-
 head(BOMBEIRO_BAYEUX)
 saida = na.omit(BOMBEIRO_BAYEUX)
 saida
