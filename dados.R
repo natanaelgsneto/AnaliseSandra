@@ -24,4 +24,5 @@ problemac = table(BOMBEIRO_BAYEUX$ProblemaC)
 problemac
 
 orientacao = table(BOMBEIRO_BAYEUX$Orientação)
-orientacao
+orientacao 
+//teste
