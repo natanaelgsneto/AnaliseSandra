@@ -13,43 +13,53 @@ getwd()
 bombeirosIdade = table(BOMBEIRO_BAYEUX$Idade)
 bombeirosIdade
 
+paste(" o desvio padrão da idade é  ", sep=": ", sd(BOMBEIRO_BAYEUX$Idade))
+?sd
+
 paste("A media de idade é  ", sep=": ", mean(BOMBEIRO_BAYEUX$Idade))
 
 bombeiroSexo = table(BOMBEIRO_BAYEUX$Sexo)
 bombeiroSexo
 
-paste("A media relacionada ao sexo  é  ", sep=": ", mean(BOMBEIRO_BAYEUX$Sexo))
+paste("A media relacionado ao sexo  é  ", sep=": ", mean(BOMBEIRO_BAYEUX$Sexo))
+paste("O desvio padrão está relacionado ao sexo  é  ", sep=": ", sd(BOMBEIRO_BAYEUX$Sexo))
 
 
 estadocivil = table(BOMBEIRO_BAYEUX$EstadoCivil)
 estadocivil
 
 paste("A media relacionada ao estado civil  é  ", sep=": ", mean(BOMBEIRO_BAYEUX$EstadoCivil))
+paste("O desvio padrão relacionado ao estado civil  é  ", sep=": ", sd(BOMBEIRO_BAYEUX$EstadoCivil))
 
 
 problemac = table(BOMBEIRO_BAYEUX$ProblemaC)
 problemac
 paste("A media relacionada ao ProblemaC  é  ", sep=": ", mean(BOMBEIRO_BAYEUX$ProblemaC))
+paste("O desvio padrão  relacionado ao ProblemaC  é  ", sep=": ", sd(BOMBEIRO_BAYEUX$ProblemaC))
 
 orientacao = table(BOMBEIRO_BAYEUX$Orientação)
 orientacao 
 paste("A media relacionada ao orientação  é  ", sep=": ", mean(BOMBEIRO_BAYEUX$Orientação))
+paste("O desvio padrão  relacionado ao ProblemaC  é  ", sep=": ", sd(BOMBEIRO_BAYEUX$ProblemaC))
 
 
 filhos = table(BOMBEIRO_BAYEUX$FIlhos)
 filhos
 paste("A media relacionada aos filhos   é  ", sep=": ", mean(BOMBEIRO_BAYEUX$FIlhos))
+paste("O desvio padrão  relacionado ao ProblemaC  é  ", sep=": ", sd(BOMBEIRO_BAYEUX$ProblemaC))
 
 religiao = table(BOMBEIRO_BAYEUX$Religião)
 religiao
 paste("A media relacionada ao religião  é  ", sep=": ", mean(BOMBEIRO_BAYEUX$Religião))
+paste("O desvio padrão relacionado a religião  é  ", sep=": ", sd(BOMBEIRO_BAYEUX$Religião))
 
 medidareligiao = table(BOMBEIRO_BAYEUX$TipoReligião)
 medidareligiao
 paste("A media relacionada ao   é  TipoReligião", sep=": ", mean(BOMBEIRO_BAYEUX$TipoReligião))
+paste("O desvio padrão relacionado a religião  é  ", sep=": ", mean(BOMBEIRO_BAYEUX$Religião))
 
 patente = table(BOMBEIRO_BAYEUX$Patente)
 paste("A media relacionada ao Patente  é  ", sep=": ", mean(BOMBEIRO_BAYEUX$Patente))
+paste("O desvio padrão relacionado a religião  é  ", sep=": ", sd(BOMBEIRO_BAYEUX$Religião))
 
 
-patente
